@@ -80,7 +80,7 @@ if(isset($_POST['status_submit'])) {
         <div class="col-4">
             <div class="h2">Your Tickets
                 <?php if($_SESSION['priv'] !== '494ceea5e99b9ddbd222afab8d72ce8f') { ?>
-                <div class="btn btn-success" data-toggle="modal" data-target="#add_ticket">Make New Ticket</div>
+                    <div class="btn btn-success" data-toggle="modal" data-target="#add_ticket">Make New Ticket</div>
                 <?php } else { ?>
                     <a href="main.php" id="ticket_refresh_button" class="btn btn-primary d-none">New Tickets. Click to refresh.</a>
                 <?php } ?>
@@ -205,7 +205,6 @@ if(isset($_POST['status_submit'])) {
                         <label for="ticket_subject">Ticket Subject:</label>
                         <input type="text" id="ticket_subject" name="ticket_subject" class="form-control" required />
                     </div>
-<!--                    <input id="user_id" name="user_id" value="--><?//= $userid ?><!--" class="d-none" />-->
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
