@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="support_tickets.xsd">
+    <ticket status="resolved" user_id="2">
+        <ticket_id>1</ticket_id>
+        <date_of_issue>2019-10-10T09:00:00</date_of_issue>
+        <subject>Forgot my Password</subject>
+        <support_messages>
+            <message author_id="2" author_type="client">
+                <title>Password Reset</title>
+                <message_timestamp>2020-10-10T09:01:00</message_timestamp>
+                <content>Hey guys, forgot my password. Can you reset it?</content>
+            </message>
+            <message author_id="3" author_type="support">
+                <title>Re:Password Reset</title>
+                <message_timestamp>2020-10-10T09:45:00</message_timestamp>
+                <content>We sent an email to your registered email. Please click the link in that email to reset your password.</content>
+            </message>
+            <message author_id="1" author_type="support"><title>Hell awaits</title><message_timestamp>2020-03-26T05:07:58+01:00</message_timestamp><content>asdfasdfa</content></message><message author_id="2" author_type="client"><title>Weird response, lol</title><message_timestamp>2020-03-26T05:19:23+01:00</message_timestamp><content>What is this all about?</content></message><message author_id="2" author_type="client"><title>Still waiting?</title><message_timestamp>2020-03-26T05:20:11+01:00</message_timestamp><content>Helloooo?</content></message><message author_id="2" author_type="client"><title>try again</title><message_timestamp>2020-03-26T05:24:26+01:00</message_timestamp><content>too baddd</content></message><message author_id="2" author_type="client"><title>try again is it a matter of length?</title><message_timestamp>2020-03-26T05:25:19+01:00</message_timestamp><content>too baddd</content></message><message author_id="2" author_type="client"><title>One more Time</title><message_timestamp>2020-03-26T05:28:53+01:00</message_timestamp><content>We're gonna celebrate</content></message><message author_id="2" author_type="client"><title>One more Time</title><message_timestamp>2020-03-26T05:31:05+01:00</message_timestamp><content>Hell wawawa</content></message><message author_id="1" author_type="support"><title>One more Time</title><message_timestamp>2020-03-26T13:58:10+01:00</message_timestamp><content>WE gonna celebele</content></message><message author_id="1" author_type="support"><title>scroll down</title><message_timestamp>2020-03-26T14:05:45+01:00</message_timestamp><content>test test</content></message><message author_id="1" author_type="support"><title>scroll down</title><message_timestamp>2020-03-26T14:07:30+01:00</message_timestamp><content>test test</content></message><message author_id="1" author_type="support"><title/><message_timestamp>2020-03-26T14:07:59+01:00</message_timestamp><content/></message><message author_id="1" author_type="support"><title>still works</title><message_timestamp>2020-03-26T14:15:58+01:00</message_timestamp><content>I just had whaaa?</content></message><message author_id="1" author_type="support"><title>still works</title><message_timestamp>2020-03-26T14:16:12+01:00</message_timestamp><content>I just had whaaa?</content></message><message author_id="1" author_type="support"><title>we belong the night, we belong to each other~~~</title><message_timestamp>2020-03-26T14:41:40+01:00</message_timestamp><content>WEEEE ARE YOUNG!</content></message></support_messages>
+    </ticket>
+    <ticket status="ongoing" user_id="2">
+        <ticket_id>2</ticket_id>
+        <date_of_issue>2020-01-10T09:00:00</date_of_issue>
+        <subject>Can't find my archived messages</subject>
+        <support_messages>
+            <message author_id="2" author_type="client">
+                <title>Missing archived messages</title>
+                <message_timestamp>2020-01-10T09:00:00</message_timestamp>
+                <content>I logged into my account this morning, and all my archived emails from before 2020 are now missing. Please help.</content>
+            </message>
+        <message author_id="1" author_type="support"><title>We are together</title><message_timestamp>2020-03-26T14:28:51+01:00</message_timestamp><content>Weeeee are young</content></message></support_messages>
+    </ticket>
+<ticket status="ongoing" user_id="2"><ticket_id>3</ticket_id><date_of_issue>2020-03-29T18:01:43+02:00</date_of_issue><subject>Not enough lettuce themes</subject><support_messages><message author_id="2" author_type="client"><title>Needs more green</title><message_timestamp>2020-03-29T18:02:29+02:00</message_timestamp><content>Website is severely lacking in lettuce color options, what gives?</content></message></support_messages></ticket><ticket status="ongoing" user_id="2"><ticket_id>4</ticket_id><date_of_issue>2020-03-30T02:00:33+02:00</date_of_issue><subject>More lettuce please</subject><support_messages><message author_id="2" author_type="client"><title>Please I need more lettuce</title><message_timestamp>2020-03-30T02:00:56+02:00</message_timestamp><content>Not nearly enough lettuce on this site</content></message></support_messages></ticket></tickets>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tickets">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ticket" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ticket_id" type="id"></xs:element>
+                            <xs:element name="date_of_issue" type="xs:dateTime"></xs:element>
+                            <xs:element name="subject" type="xs:string"></xs:element>
+                            <xs:element name="support_messages">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="message" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="title" type="xs:string"></xs:element>
+                                                    <xs:element name="message_timestamp" type="xs:dateTime"></xs:element>
+                                                    <xs:element name="content" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="author_id" type="id"></xs:attribute>
+                                                <xs:attribute name="author_type" type="usertype"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="status" type="status" use="required"></xs:attribute>
+                        <xs:attribute name="user_id" type="id" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="status">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="resolved" />
+            <xs:enumeration value="ongoing" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="id">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="usertype">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="admin" />
+            <xs:enumeration value="client" />
+            <xs:enumeration value="support" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

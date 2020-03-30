@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+    <user user_type="admin">
+        <user_id>1</user_id>
+        <username>admin@support.net</username>
+        <password>482c811da5d5b4bc6d497ffa98491e38</password>
+        <notes>Primary Admin user account</notes>
+    </user>
+    <user user_type="client">
+        <user_id>2</user_id>
+        <username>LettuceLover@leafy.com</username>
+        <password>1f87db07f7a31acf8f75fc57e27fb92b</password>
+        <notes>This client really likes lettuce</notes>
+    </user>
+    <user user_type="support">
+        <user_id>3</user_id>
+        <username>Support-1@support.net</username>
+        <password>c158b33d64e5bf549328f8d8c8332fac</password>
+        <notes></notes>
+    </user>
+</users>
